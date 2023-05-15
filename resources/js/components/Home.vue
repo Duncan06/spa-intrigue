@@ -1,5 +1,5 @@
 <template>
-    <p>Home</p>
+    <h2 class="font-normal">Full Logo</h2>
 </template>
 
 <script>
