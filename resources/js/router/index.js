@@ -23,31 +23,37 @@ const routes = [
         name: 'logoSymbol',
         component: LogoSymbol
     },
+
     {
         path: '/colors',
         name: 'colors',
         component: Colors
     },
+
     {
         path: '/typography',
         name: 'typography',
         component: Typography
     },
+
     {
         path: '/mascot',
         name: 'mascot',
         component: Mascot
     },
+
     {
         path: '/illustrations',
         name: 'illustrations',
         component: Illustrations
     },
+
     {
         path: '/loaders-and-animations',
         name: 'loadersAndAnimations',
         component: LoadersAndAnimations
     },
+    
     {
         path: '/wallpapers',
         name: 'wallpapers',
