@@ -1,5 +1,5 @@
 <template>
-    <p>About</p>
+    <h2 class="font-normal">Loaders and Animations</h2>
 </template>
 
 <script>

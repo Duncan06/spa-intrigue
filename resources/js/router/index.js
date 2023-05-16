@@ -1,24 +1,63 @@
 import { createRouter, createWebHistory } from 'vue-router';
-import Home from '../components/Home.vue';
-import About from '../components/About.vue';
+import Logo from '../components/Logo.vue';
+import LogoSymbol from '../components/LogoSymbol.vue';
+import Colors from '../components/Colors.vue';
+import Typography from '../components/Typography.vue';
+import Mascot from '../components/Mascot.vue';
+import Illustrations from '../components/Illustrations.vue';
+import LoadersAndAnimations from '../components/LoadersAndAnimations.vue';
+import Wallpapers from '../components/Wallpapers.vue';
 
 
-const routes=[
+const linkActiveClass = 'font-bold';
+
+const routes = [
     {
         path: '/',
-        name: 'home',
-        component: Home
+        name: 'logo',
+        component: Logo 
     },
 
     {
-        path: '/about',
-        name: 'about',
-        component: About
+        path: '/logo-symbol',
+        name: 'logoSymbol',
+        component: LogoSymbol
+    },
+    {
+        path: '/colors',
+        name: 'colors',
+        component: Colors
+    },
+    {
+        path: '/typography',
+        name: 'typography',
+        component: Typography
+    },
+    {
+        path: '/mascot',
+        name: 'mascot',
+        component: Mascot
+    },
+    {
+        path: '/illustrations',
+        name: 'illustrations',
+        component: Illustrations
+    },
+    {
+        path: '/loaders-and-animations',
+        name: 'loadersAndAnimations',
+        component: LoadersAndAnimations
+    },
+    {
+        path: '/wallpapers',
+        name: 'wallpapers',
+        component: Wallpapers 
     },
 ];
 
 const router = createRouter({
     history: createWebHistory(import.meta.env.BASE_URL),
+    linkActiveClass,
     routes
 });
 

@@ -10,20 +10,20 @@
                     <section class="mb-8">
                         <h5 class="uppercase font-bold mb-4">The Brand</h5>
                         <ul class="list-reset">
-                            <li class="text-sm leading-loose"><router-link class="text-black" :to="{ name: 'home' }">Logo</router-link></li>
-                            <li class="text-sm leading-loose"><router-link class="text-black" :to="{ name: 'about' }">Logo Symbol</router-link></li>
-                            <li class="text-sm leading-loose"><router-link class="text-black" :to="{ name: 'about' }">Colors</router-link></li>
-                            <li class="text-sm leading-loose"><router-link class="text-black" :to="{ name: 'about' }">Typography</router-link></li>
+                            <li class="text-sm leading-loose"><router-link class="text-black" :to="{ name: 'logo' }">Logo</router-link></li>
+                            <li class="text-sm leading-loose"><router-link class="text-black" :to="{ name: 'logoSymbol' }">Logo Symbol</router-link></li>
+                            <li class="text-sm leading-loose"><router-link class="text-black" :to="{ name: 'colors' }">Colors</router-link></li>
+                            <li class="text-sm leading-loose"><router-link class="text-black" :to="{ name: 'typography' }">Typography</router-link></li>
                         </ul>
                     </section>
                 
                     <section>
                         <h5 class="uppercase font-bold mb-4">Doodles</h5>
                         <ul class="list-reset">
-                            <li class="text-sm leading-loose"><router-link class="text-black" :to="{ name: 'home' }">Mascot</router-link></li>
-                            <li class="text-sm leading-loose"><router-link class="text-black" :to="{ name: 'about' }">Illustrations</router-link></li>
-                            <li class="text-sm leading-loose"><router-link class="text-black" :to="{ name: 'about' }">Loaders and Animations</router-link></li>
-                            <li class="text-sm leading-loose"><router-link class="text-black" :to="{ name: 'about' }">Wallpapers</router-link></li>
+                            <li class="text-sm leading-loose"><router-link class="text-black" :to="{ name: 'mascot' }">Mascot</router-link></li>
+                            <li class="text-sm leading-loose"><router-link class="text-black" :to="{ name: 'illustrations' }">Illustrations</router-link></li>
+                            <li class="text-sm leading-loose"><router-link class="text-black" :to="{ name: 'loadersAndAnimations' }">Loaders and Animations</router-link></li>
+                            <li class="text-sm leading-loose"><router-link class="text-black" :to="{ name: 'wallpapers' }">Wallpapers</router-link></li>
                         </ul>
                     </section>
                 </aside>
