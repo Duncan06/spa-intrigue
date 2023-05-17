@@ -7,11 +7,16 @@ import Mascot from '../components/Mascot.vue';
 import Illustrations from '../components/Illustrations.vue';
 import LoadersAndAnimations from '../components/LoadersAndAnimations.vue';
 import Wallpapers from '../components/Wallpapers.vue';
-
+import NotFound from '../components/NotFound.vue';
 
 const linkActiveClass = 'font-bold';
 
 const routes = [
+    {
+        path: '/:pathMatch(.*)*',
+        name: 'not-found',
+        component: NotFound
+    },
     {
         path: '/',
         name: 'logo',
