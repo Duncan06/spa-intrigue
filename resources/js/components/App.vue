@@ -1,14 +1,14 @@
 <template>
     <div>
-        <div class="container mx-auto">
+        <div class="container px-8 pb-10" style="max-width: 920px">
             <header class="py-6 mb-8">
                 <h1>Logo</h1>
             </header>
 
             <main class="flex">
-                <aside class="w-1/5">
-                    <section class="mb-8">
-                        <h5 class="uppercase font-bold mb-4">The Brand</h5>
+                <aside class="w-64 pt-8">
+                    <section class="mb-10">
+                        <h5 class="uppercase font-bold mb-5 text-base">The Brand</h5>
                         <ul class="list-reset">
                             <li class="text-sm leading-loose"><router-link class="text-black" :to="{ name: 'logo' }">Logo</router-link></li>
                             <li class="text-sm leading-loose"><router-link class="text-black" :to="{ name: 'logoSymbol' }">Logo Symbol</router-link></li>
@@ -18,7 +18,7 @@
                     </section>
                 
                     <section>
-                        <h5 class="uppercase font-bold mb-4">Doodles</h5>
+                        <h5 class="uppercase font-bold mb-5 text-base">Doodles</h5>
                         <ul class="list-reset">
                             <li class="text-sm leading-loose"><router-link class="text-black" :to="{ name: 'mascot' }">Mascot</router-link></li>
                             <li class="text-sm leading-loose"><router-link class="text-black" :to="{ name: 'illustrations' }">Illustrations</router-link></li>
